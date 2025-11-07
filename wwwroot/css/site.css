@@ -29,3 +29,15 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+/* Custom styles for form element padding */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], 
+input[type="tel"], input[type="url"], input[type="search"], textarea, select {
+  padding: 8px 12px !important;
+  margin: 4px 0;
+}
+
+input[type="submit"], button {
+  padding: 8px 16px !important;
+  margin: 4px 4px 4px 0;
+}
