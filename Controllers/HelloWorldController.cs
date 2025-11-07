@@ -15,9 +15,9 @@ namespace MvcMovie.Controllers
         {
             return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
-        public string About()
+        public IActionResult About()
         {
-            return "This is my about page action";
+            return View();
         }
     }
 }
